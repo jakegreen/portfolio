@@ -1,14 +1,30 @@
-<div class="portfolio-showcase">
-    <table ng-show="portfolioList" cellspacing="5">
-        <tr align="left" class="heading">
-            <th>Name</th>
-            <th>Description</th>
-            <th>Image URL</th>
-        </tr>
-        <tr ng-repeat="portfolio in portfolioList">
-            <td>{{ portfolio.name }}</td>
-            <td>{{ portfolio.description }}</td>
-            <td><img ng-src="{{ portfolio.imageUrl }}"></td>
-        </tr>
-    </table>
+<div class="container">
+    <div class="row"
+    <div class="masonry">
+        <div ng-repeat="portfolio in portfolioList" class="post-box col-lg-4 col-md-4 col-sm-4">
+            <img class="img-responsive img-thumbnail" ng-src="{{ portfolio.imageUrl }}"/>
+        </div>
+    </div>
 </div>
+</div>
+
+<div ng-include="'/public/partials/footer.tpl.html'"></div>
+
+<script src="/public/js/masonry.pkgd.min.js"></script>
+<script src="/public/js/imagesloaded.pkgd.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var $container = $('.masonry');
+
+        $container.imagesLoaded(function () {
+            $container.masonry({
+                itemSelector: '.post-box',
+                columnWidth: '.post-box',
+                transitionDuration: 0
+            });
+        });
+    });
+</script>
+
+
+

@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.3.21
+3 info using node@v0.10.24
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'c:\\DEV\\PyCharm\\portfolio',
+6 verbose install   [ 'bower',
+6 verbose install     'phantomjs',
+6 verbose install     'karma',
+6 verbose install     'karma-junit-reporter',
+6 verbose install     'karma-jasmine',
+6 verbose install     'karma-ng-scenario' ] ]
+7 info preinstall portfolio-seed@
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping bower@~1.2.8 c:\DEV\PyCharm\portfolio
+10 verbose already installed skipping phantomjs@~1.9 c:\DEV\PyCharm\portfolio
+11 verbose already installed skipping karma@~0.10 c:\DEV\PyCharm\portfolio
+12 verbose already installed skipping karma-junit-reporter@~0.1 c:\DEV\PyCharm\portfolio
+13 verbose already installed skipping karma-jasmine@~0.1 c:\DEV\PyCharm\portfolio
+14 verbose already installed skipping karma-ng-scenario@~0.1 c:\DEV\PyCharm\portfolio
+15 silly resolved []
+16 info build c:\DEV\PyCharm\portfolio
+17 verbose linkStuff [ false, false, false, 'c:\\DEV\\PyCharm' ]
+18 info linkStuff portfolio-seed@
+19 verbose linkBins portfolio-seed@
+20 verbose linkMans portfolio-seed@
+21 verbose rebuildBundles portfolio-seed@
+22 verbose rebuildBundles [ '.bin',
+22 verbose rebuildBundles   'bower',
+22 verbose rebuildBundles   'karma',
+22 verbose rebuildBundles   'karma-chrome-launcher',
+22 verbose rebuildBundles   'karma-coffee-preprocessor',
+22 verbose rebuildBundles   'karma-firefox-launcher',
+22 verbose rebuildBundles   'karma-html2js-preprocessor',
+22 verbose rebuildBundles   'karma-jasmine',
+22 verbose rebuildBundles   'karma-junit-reporter',
+22 verbose rebuildBundles   'karma-ng-scenario',
+22 verbose rebuildBundles   'karma-phantomjs-launcher',
+22 verbose rebuildBundles   'karma-requirejs',
+22 verbose rebuildBundles   'karma-script-launcher',
+22 verbose rebuildBundles   'phantomjs',
+22 verbose rebuildBundles   'requirejs' ]
+23 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-chrome-launcher
+24 info build c:\DEV\PyCharm\portfolio\node_modules\karma-chrome-launcher
+25 info preinstall karma-chrome-launcher@0.1.2
+26 verbose linkStuff [ false,
+26 verbose linkStuff   false,
+26 verbose linkStuff   false,
+26 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+27 info linkStuff karma-chrome-launcher@0.1.2
+28 verbose linkBins karma-chrome-launcher@0.1.2
+29 verbose linkMans karma-chrome-launcher@0.1.2
+30 verbose rebuildBundles karma-chrome-launcher@0.1.2
+31 info install karma-chrome-launcher@0.1.2
+32 info postinstall karma-chrome-launcher@0.1.2
+33 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-coffee-preprocessor
+34 info build c:\DEV\PyCharm\portfolio\node_modules\karma-coffee-preprocessor
+35 info preinstall karma-coffee-preprocessor@0.1.2
+36 verbose linkStuff [ false,
+36 verbose linkStuff   false,
+36 verbose linkStuff   false,
+36 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+37 info linkStuff karma-coffee-preprocessor@0.1.2
+38 verbose linkBins karma-coffee-preprocessor@0.1.2
+39 verbose linkMans karma-coffee-preprocessor@0.1.2
+40 verbose rebuildBundles karma-coffee-preprocessor@0.1.2
+41 verbose rebuildBundles [ '.bin', 'coffee-script' ]
+42 info install karma-coffee-preprocessor@0.1.2
+43 info postinstall karma-coffee-preprocessor@0.1.2
+44 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-firefox-launcher
+45 info build c:\DEV\PyCharm\portfolio\node_modules\karma-firefox-launcher
+46 info preinstall karma-firefox-launcher@0.1.3
+47 verbose linkStuff [ false,
+47 verbose linkStuff   false,
+47 verbose linkStuff   false,
+47 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+48 info linkStuff karma-firefox-launcher@0.1.3
+49 verbose linkBins karma-firefox-launcher@0.1.3
+50 verbose linkMans karma-firefox-launcher@0.1.3
+51 verbose rebuildBundles karma-firefox-launcher@0.1.3
+52 info install karma-firefox-launcher@0.1.3
+53 info postinstall karma-firefox-launcher@0.1.3
+54 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-html2js-preprocessor
+55 info build c:\DEV\PyCharm\portfolio\node_modules\karma-html2js-preprocessor
+56 info preinstall karma-html2js-preprocessor@0.1.0
+57 verbose linkStuff [ false,
+57 verbose linkStuff   false,
+57 verbose linkStuff   false,
+57 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+58 info linkStuff karma-html2js-preprocessor@0.1.0
+59 verbose linkBins karma-html2js-preprocessor@0.1.0
+60 verbose linkMans karma-html2js-preprocessor@0.1.0
+61 verbose rebuildBundles karma-html2js-preprocessor@0.1.0
+62 info install karma-html2js-preprocessor@0.1.0
+63 info postinstall karma-html2js-preprocessor@0.1.0
+64 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-phantomjs-launcher
+65 info build c:\DEV\PyCharm\portfolio\node_modules\karma-phantomjs-launcher
+66 info preinstall karma-phantomjs-launcher@0.1.1
+67 verbose linkStuff [ false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+68 info linkStuff karma-phantomjs-launcher@0.1.1
+69 verbose linkBins karma-phantomjs-launcher@0.1.1
+70 verbose linkMans karma-phantomjs-launcher@0.1.1
+71 verbose rebuildBundles karma-phantomjs-launcher@0.1.1
+72 info install karma-phantomjs-launcher@0.1.1
+73 info postinstall karma-phantomjs-launcher@0.1.1
+74 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-requirejs
+75 info build c:\DEV\PyCharm\portfolio\node_modules\karma-requirejs
+76 info preinstall karma-requirejs@0.2.1
+77 verbose linkStuff [ false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+78 info linkStuff karma-requirejs@0.2.1
+79 verbose linkBins karma-requirejs@0.2.1
+80 verbose linkMans karma-requirejs@0.2.1
+81 verbose rebuildBundles karma-requirejs@0.2.1
+82 info install karma-requirejs@0.2.1
+83 info postinstall karma-requirejs@0.2.1
+84 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\karma-script-launcher
+85 info build c:\DEV\PyCharm\portfolio\node_modules\karma-script-launcher
+86 info preinstall karma-script-launcher@0.1.0
+87 verbose linkStuff [ false,
+87 verbose linkStuff   false,
+87 verbose linkStuff   false,
+87 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+88 info linkStuff karma-script-launcher@0.1.0
+89 verbose linkBins karma-script-launcher@0.1.0
+90 verbose linkMans karma-script-launcher@0.1.0
+91 verbose rebuildBundles karma-script-launcher@0.1.0
+92 info install karma-script-launcher@0.1.0
+93 info postinstall karma-script-launcher@0.1.0
+94 verbose rebuild bundle c:\DEV\PyCharm\portfolio\node_modules\requirejs
+95 info build c:\DEV\PyCharm\portfolio\node_modules\requirejs
+96 info preinstall requirejs@2.1.9
+97 verbose linkStuff [ false,
+97 verbose linkStuff   false,
+97 verbose linkStuff   false,
+97 verbose linkStuff   'c:\\DEV\\PyCharm\\portfolio\\node_modules' ]
+98 info linkStuff requirejs@2.1.9
+99 verbose linkBins requirejs@2.1.9
+100 verbose link bins [ { 'r.js': './bin/r.js' },
+100 verbose link bins   'c:\\DEV\\PyCharm\\portfolio\\node_modules\\.bin',
+100 verbose link bins   false ]
+101 verbose linkMans requirejs@2.1.9
+102 verbose rebuildBundles requirejs@2.1.9
+103 info install requirejs@2.1.9
+104 info postinstall requirejs@2.1.9
+105 info install portfolio-seed@
+106 info postinstall portfolio-seed@
+107 verbose unsafe-perm in lifecycle true
+108 info portfolio-seed@ Failed to exec postinstall script
+109 error portfolio-seed@ postinstall: `./node_modules/bower/bin/bower install`
+109 error Exit status 1
+110 error Failed at the portfolio-seed@ postinstall script.
+110 error This is most likely a problem with the portfolio-seed package,
+110 error not with npm itself.
+110 error Tell the author that this fails on your system:
+110 error     ./node_modules/bower/bin/bower install
+110 error You can get their info via:
+110 error     npm owner ls portfolio-seed
+110 error There is likely additional logging output above.
+111 error System Windows_NT 6.2.9200
+112 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+113 error cwd c:\DEV\PyCharm\portfolio
+114 error node -v v0.10.24
+115 error npm -v 1.3.21
+116 error code ELIFECYCLE
+117 verbose exit [ 1, true ]

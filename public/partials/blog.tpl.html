@@ -1,0 +1,21 @@
+<br>
+
+<div class="container">
+    <div ng-repeat="blog in blogList">
+        <div class="row">
+            <div class="col-md-9">
+                <h2><a href="#/post/{{ blog.id }}">{{ blog.Title }}</a></h2>
+
+                <p>{{ blog.description }}</p>
+            </div>
+
+            <div class="col-md-3">
+                <a href="#" class="">
+                    <img src="http://placehold.it/250x250" alt="...">
+                </a>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+</div>
