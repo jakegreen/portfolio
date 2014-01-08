@@ -11,6 +11,8 @@ angular.module('portfolioApp.controllers', [])
         };
 
     })
+
+
     .controller('AboutController', function ($scope) {
 
     })
@@ -22,6 +24,17 @@ angular.module('portfolioApp.controllers', [])
 
         PortfolioListService.success(function (data) {
             $scope.portfolioList = data;
+        });
+
+    })
+
+    .controller('ProjectController', function ($scope, $routeParams, PortfolioListService) {
+        $scope.project = {};
+        $scope.id = $routeParams.id;
+
+        PortfolioListService.success(function (data) {
+
+            $scope.project = data[$scope.id];
         });
 
     })
@@ -48,7 +61,7 @@ angular.module('portfolioApp.controllers', [])
 
     })
 
-    .controller('BaseController',  function ($scope) {
+    .controller('BaseController', function ($scope) {
         var d = new Date();
         $scope.date = d.getFullYear();
     });

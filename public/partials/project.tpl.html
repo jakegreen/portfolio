@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <h1 class="text-center">{{ project.name }}
+                <small>- {{ project.description }}</small>
+            </h1>
+            <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <p><img ng-src="{{ project.imageUrl }}"/></p>
+        </div>
+
+        <div ng-repeat="image in project.imageList">
+           <img ng-src="{{ image }}"/>
+        </div>
+    </div>
+
+</div>
+
