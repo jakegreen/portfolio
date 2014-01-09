@@ -1,8 +1,11 @@
 <div class="container">
+    <div class="row">
+        <h1 class="theme">My mom says these are really good...</h1>
+    </div>
     <div class="row"
     <div class="masonry">
         <div ng-repeat="portfolio in portfolioList" class="post-box col-lg-4 col-md-4 col-sm-4">
-            <img class="img-responsive img-thumbnail" ng-src="{{ portfolio.imageUrl }}"/>
+            <a href="#/project/{{ portfolio.id }}"><img class="img-responsive img-thumbnail" ng-src="{{ portfolio.imageUrl }}"/></a>
         </div>
     </div>
 </div>

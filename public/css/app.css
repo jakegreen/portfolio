@@ -6,7 +6,10 @@ body {
     width: 100%;
 }
 
-
+.theme {
+    color: #7fbbda;
+    text-align: center;
+}
 a {
     color: #7fbbda;
 }
