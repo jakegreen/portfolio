@@ -22,12 +22,12 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <ul class="nav nav-justified top-nav">
-            <li><a href='#home?scrollTo=top'>Home</a></li>
-            <li><a href='#home?scrollTo=me'>About Me</a></li>
-            <li><a href="#home?scrollTo=skills">Skills</a></li>
+            <li><a ng-click="scrollToItem('#/home#top')">Home</a></li>
+            <li><a ng-click="scrollToItem('me')">About Me</a></li>
+            <li><a ng-click="scrollToItem('skills')">Skills</a></li>
             <li><a href="#/portfolio">Portfolio</a></li>
             <li><a href="#/blog">Blog</a></li>
-            <li><a href="#home?scrollTo=contact">Contact</a></li>
+            <li><a ng-click="scrollToItem('contact')">Contact</a></li>
         </ul>
     </div>
 </div>

@@ -49,14 +49,9 @@ angular.module('portfolioApp.filters', [])
 
             var result = [];
             searchString = searchString.toLowerCase();
-            console.log('on search' + searchString);
             angular.forEach(items, function(item) {
-
                 if (item.title.toLowerCase().indexOf(searchString) !== -1 || item.description.toLowerCase().indexOf(searchString) !== -1 ) {
-                    console.log('in the if');
                     result.push(item);
-
-
                 }
             });
 

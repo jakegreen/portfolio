@@ -61,7 +61,22 @@ angular.module('portfolioApp.controllers', [])
 
     })
 
-    .controller('BaseController', function ($scope) {
+    .controller('BaseController', function ($scope, $location, $anchorScroll, $route, $window) {
         var d = new Date();
         $scope.date = d.getFullYear();
+
+
+        $scope.scrollToItem = function (data) {
+            console.log($route.current);
+
+            $location.hash(data);
+            if ($route.current.$$route.originalPath.indexOf('home') == -1) {
+                console.log('youre in')
+                $location.url = '#/home';
+                console.log($window);
+                $window.location = "index.html#/home";
+            }
+
+            $anchorScroll();
+        };
     });
