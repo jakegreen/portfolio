@@ -1,7 +1,10 @@
 <br>
 
+<input type="text" ng-model="searchString" placeholder="Search"/>
+
+
 <div class="container">
-    <div ng-repeat="blog in blogList">
+    <div ng-repeat="blog in blogList | searchBlog:searchString ">
         <div class="row">
             <div class="col-md-9">
                 <h2><a href="#/post/{{ blog.id }}">{{ blog.title }}</a></h2>
@@ -19,3 +22,5 @@
         <hr>
     </div>
 </div>
+
+<div ng-include="'/public/partials/footer.tpl.html'"></div>

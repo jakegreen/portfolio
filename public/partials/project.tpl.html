@@ -6,14 +6,16 @@
             </h1>
             <hr>
         </div>
-        <div class="col-md-8 col-md-offset-2">
-            <p><img ng-src="{{ project.imageUrl }}"/></p>
+        <div class="col-md-12">
+            <img ng-src="{{ project.imageUrl }}"/>
         </div>
 
-        <div ng-repeat="image in project.imageList">
+        <div class="img-rounded img-thumbnail" ng-repeat="image in project.imageList">
             <img ng-src="{{ image }}"/>
         </div>
     </div>
 
 </div>
+
+<div ng-include="'/public/partials/footer.tpl.html'"></div>
 

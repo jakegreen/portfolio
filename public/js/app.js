@@ -16,6 +16,7 @@ var portfolioApp = angular.module('portfolioApp', [
         $routeProvider.when('/blog', {templateUrl: 'partials/blog.tpl.html', controller: 'BlogController', title: 'Blog'});
         $routeProvider.when('/post/:id', {templateUrl: 'partials/post.tpl.html', controller: 'PostController', title: 'Blog Post'});
         $routeProvider.when('/project/:id', {templateUrl: 'partials/project.tpl.html', controller: 'ProjectController', title: 'Project'});
+
         $routeProvider.otherwise({redirectTo: '/home'});
     }])
     .run(['$location', '$rootScope', 'baseTitle','$anchorScroll', '$routeParams', function ($location, $rootScope, baseTitle, $anchorScroll, $routeParams) {
