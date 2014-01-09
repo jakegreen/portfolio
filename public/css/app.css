@@ -11,9 +11,12 @@ a {
     color: #7fbbda;
 }
 
-
 ul.nav li a:hover {
     background-color: #bebebe;
+}
+
+ul.list-inline li a:hover {
+    color: #bebebe;
 }
 
 .vert-text {
@@ -34,7 +37,6 @@ ul.nav li a:hover {
 }
 
 /* Full Page Image Header Area */
-
 .header {
     display: table;
     height: 100%;
@@ -196,4 +198,12 @@ i.scroll:hover {
 .post-box {
     margin: 15px 0 15px 0;
 
+}
+
+.inspire {
+    color: #fff;
+}
+
+.inspire:hover {
+    color: #bebebe;
 }
